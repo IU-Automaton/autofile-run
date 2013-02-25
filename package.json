@@ -1,0 +1,27 @@
+{
+  "name": "autofile-run",
+  "version": "0.0.1",
+  "description": "Run command. This can be used to run anything you want, just like you would in the command line.",
+  "main": "autofile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IU-Automaton/autofile-run"
+  },
+  "keywords": [
+    "autofile",
+    "automaton",
+    "task",
+    "run",
+    "execute",
+    "exec",
+    "shell",
+    "cli",
+    "cmd"
+  ],
+  "author": "Indigo United",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
