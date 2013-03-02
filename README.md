@@ -1,9 +1,9 @@
 `automaton task` - http://indigounited.com/automaton
 
-rm
+run
 ===
 
-Remove file or set of files.
+Run command in the command line.
 
 *Indigo United 2013*
 

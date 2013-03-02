@@ -4,7 +4,7 @@
   "description": "Run command. This can be used to run anything you want, just like you would in the command line.",
   "main": "autofile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   ],
   "author": "Indigo United",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "dependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.8.1",
+    "automaton": "~0.1.4"
+  },
+  "devDependencies": {
+    "rimraf": "~2.1.4"
+  }
 }
