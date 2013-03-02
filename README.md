@@ -3,7 +3,7 @@
 run
 ===
 
-Run command in the command line.
+Run command just like it was run from the command line.
 
 *Indigo United 2013*
 

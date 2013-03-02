@@ -6,7 +6,7 @@ module.exports = function (task) {
     task
     .id('run')
     .name('Run')
-    .description('Run command. This can be used to run anything you want, just like you would in the command line.')
+    .description('Run command just like it was run from the command line.')
     .author('Indigo United')
 
     .option('cmd', 'The command you want to execute.')

@@ -1,7 +1,7 @@
 {
   "name": "autofile-run",
   "version": "0.0.0",
-  "description": "Run command. This can be used to run anything you want, just like you would in the command line.",
+  "description": "Run command just like it was run from the command line.",
   "main": "autofile.js",
   "scripts": {
     "test": "mocha -R spec"
