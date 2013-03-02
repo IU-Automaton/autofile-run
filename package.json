@@ -1,6 +1,6 @@
 {
   "name": "autofile-run",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Run command. This can be used to run anything you want, just like you would in the command line.",
   "main": "autofile.js",
   "scripts": {

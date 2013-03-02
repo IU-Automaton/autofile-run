@@ -5,6 +5,7 @@ var expect    = require('expect.js'),
     fs        = require('fs'),
     rimraf    = require('rimraf'),
     isDir     = require('./util/is-dir'),
+    run       = require('../autofile'),
     automaton = require('automaton').create()
 ;
 
@@ -30,7 +31,7 @@ describe('run', function () {
     it('should run command', function (done) {
         var folder = 'foo';
 
-        automaton.run('run', {
+        automaton.run(run, {
             cmd: 'mkdir ' + path.join(target, folder)
         }, function (err) {
             if (err) {
@@ -45,7 +46,7 @@ describe('run', function () {
     it('should run command in a different cwd', function (done) {
         var folder = 'run';
 
-        automaton.run('run', {
+        automaton.run(run, {
             cmd: 'mkdir  ' + folder,
             cwd: target
         }, function (err) {
