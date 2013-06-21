@@ -1,13 +1,14 @@
+/*global describe, it, beforeEach, after*/
+
 'use strict';
 
-var expect    = require('expect.js'),
-    path      = require('path'),
-    fs        = require('fs'),
-    rimraf    = require('rimraf'),
-    isDir     = require('./util/is-dir'),
-    run       = require('../autofile'),
-    automaton = require('automaton').create()
-;
+var expect    = require('expect.js');
+var path      = require('path');
+var fs        = require('fs');
+var rimraf    = require('rimraf');
+var isDir     = require('./util/isDir');
+var run       = require('../autofile');
+var automaton = require('automaton').create();
 
 describe('run', function () {
     var target = path.normalize(__dirname + '/tmp/');
